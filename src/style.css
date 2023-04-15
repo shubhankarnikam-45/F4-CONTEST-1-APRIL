@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    background-color: black;
+   
+}
+
+.name-error ,.email-error, .pass-error ,.cpass-error{
+
+    color: red;
+}
+
+.confirm-message{
+    color:green
+}
+.form{
+
+    text-align: center;
+    margin:55px;
+    color:white;
+}
+
+.form input
+{
+    color:white;    
+  
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        outline: none;
+  
+}
+
+.form button {
+    width: 100%;
+    background-color: tomato;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+
+/* 
+.error-message{
+
+    color:red;
+} */
+
